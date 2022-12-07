@@ -89821,7 +89821,7 @@ var $async$x_=A.J(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:k=n.a.e
 j=t.N
 i=A.b_T("https","api.semaphore.co","/api/v4/messages",A.o(["apikey","d35d7d286c32518996d2569284ab6f50","number",A.i(k.d),"message","Certificate of grades on "+A.i(k.f)+" is uploaded!","sendername","SEMAPHORE"],j,j))
-h=A.o(["Access-Control-Allow-Origin","https://nicoitorma.github.io","Access-Control-Allow-Credentials","true","Origin","nicoitorma.github.io"],j,j)
+h=A.o(["Access-Control-Allow-Origin","true"],j,j)
 g=null
 s=n.y==="Success!"?3:4
 break
