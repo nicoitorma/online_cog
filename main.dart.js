@@ -89829,6 +89829,7 @@ case 3:p=6
 s=9
 return A.Q(A.b3L(i,h),$async$x_)
 case 9:g=c
+A.yO().$1(g.e.j(0))
 p=2
 s=8
 break
@@ -89836,7 +89837,6 @@ case 6:p=5
 f=o
 m=A.a6(f)
 A.yO().$1("Error Sending Request")
-A.yO().$1(g.e.j(0))
 k=J.dl(m)
 q=k
 s=1
