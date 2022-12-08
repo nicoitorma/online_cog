@@ -89815,24 +89815,23 @@ if(q===0)return!0
 else for(s=a.b,r=0;r<q;++r)if(b[r].b==s)return!1
 return!0},
 x_(a){return this.XN(a)},
-XN(a){var s=0,r=A.O(t.N),q,p=2,o,n=this,m,l,k,j,i,h,g
+XN(a){var s=0,r=A.O(t.N),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$x_=A.J(function(b,c){if(b===1){o=c
-s=p}while(true)switch(s){case 0:k=n.a.e
-j=t.N
-i=A.b_T("https","api.semaphore.co","/api/v4/messages",A.o(["apikey","d35d7d286c32518996d2569284ab6f50","number",A.i(k.d),"message","Certificate of grades on "+A.i(k.f)+" is uploaded!","sendername","SEMAPHORE"],j,j))
-h=null
+s=p}while(true)switch(s){case 0:k=t.N
+j=A.b_T("https","api.semaphore.co","/api/v4/messages",A.o(["apikey","d35d7d286c32518996d2569284ab6f50","number",A.i(n.a.e.d),"message",a,"sendername","SEMAPHORE"],k,k))
+i=null
 s=n.y==="Success!"?3:4
 break
 case 3:p=6
 s=9
-return A.Q(A.b3L(i),$async$x_)
-case 9:h=c
+return A.Q(A.b3L(j),$async$x_)
+case 9:i=c
 p=2
 s=8
 break
 case 6:p=5
-g=o
-m=A.a6(g)
+h=o
+m=A.a6(h)
 A.Kq().$1("Error Sending Request")
 k=J.dl(m)
 q=k
@@ -89842,7 +89841,7 @@ s=8
 break
 case 5:s=2
 break
-case 8:case 4:k=h
+case 8:case 4:k=i
 q=A.b2E(A.b0h(k.e).c.a.h(0,"charset")).eF(0,k.w)
 s=1
 break
@@ -90319,16 +90318,16 @@ A.ZL.prototype={
 D(a){var s=J.aA(this.a.c.a.c,"email")
 s.toString
 if(B.c.C(s,"@adminemail.cog"))return B.js
-else if(J.aA(this.a.c.a.c,"displayName").length===0)return B.fK
-return B.iG}}
+else{s=J.aA(this.a.c.a.c,"displayName")
+if((s==null?null:s.length===0)==null)return B.fK}return B.iG}}
 A.Fl.prototype={
 T(){return new A.a1J(B.i)}}
 A.a1J.prototype={
 D(a){var s=J.aA(this.a.c.a.c,"email")
 s.toString
 if(B.c.C(s,"@adminemail.cog"))return B.js
-else if(J.aA(this.a.c.a.c,"displayName").length===0)return B.fK
-return B.iG}}
+else{s=J.aA(this.a.c.a.c,"displayName")
+if((s==null?null:s.length===0)==null)return B.fK}return B.iG}}
 A.D8.prototype={
 T(){return new A.a_f(B.i)}}
 A.a_f.prototype={
