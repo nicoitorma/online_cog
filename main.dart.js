@@ -26287,8 +26287,7 @@ _.a=a
 _.b=b
 _.c=c
 _.d=d},
-awa:function awa(a,b){this.a=a
-this.b=b},
+awa:function awa(a){this.a=a},
 rf:function rf(a){this.a=a},
 a0C:function a0C(a){this.a=null
 this.b=a
@@ -89918,7 +89917,7 @@ $0(){A.ck(this.a,!1).nx(null)
 return null},
 $S:0}
 A.awd.prototype={
-$0(){var s=0,r=A.O(t.H),q=this,p,o,n,m,l,k,j
+$0(){var s=0,r=A.O(t.H),q=this,p,o,n,m,l
 var $async$$0=A.J(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:m=q.b
 A.ck(m,!1).nx(null)
@@ -89930,18 +89929,15 @@ return A.Q(A.ac4(p.r,q.c,o),$async$$0)
 case 2:n=l.y=b
 s=n!=null&&n==="Success!"?3:4
 break
-case 3:l=A
-k=A
-j=o
-s=5
+case 3:s=5
 return A.Q(p.x_("Certificate of grades for "+o+" is uploaded!"),$async$$0)
-case 5:l.a4o(new k.awa(j,b),m,t.z)
+case 5:A.a4o(new A.awa(o),m,t.z)
 case 4:return A.M(null,r)}})
 return A.N($async$$0,r)},
 $S:18}
 A.awa.prototype={
 $1(a){var s=null,r=A.aL("Success!",s,s,s,s,s,s,s,s,s,s,s)
-return A.KL(s,s,A.aL("Certificate of grades for "+this.a+" is uploaded! \n\n "+this.b,s,s,s,s,s,s,s,s,s,s,s),r)},
+return A.KL(s,s,A.aL("Certificate of grades for "+this.a+" is uploaded!",s,s,s,s,s,s,s,s,s,s,s),r)},
 $S:60}
 A.rf.prototype={
 T(){return new A.a0C(B.i)}}
